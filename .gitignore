@@ -35,6 +35,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# This pet food store SPA was made by using Sanity, React & Stripe.
+# This Pokémon store SPA was made by using Sanity, React & Stripe.
 
 irfan_README.md

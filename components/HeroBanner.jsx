@@ -21,11 +21,15 @@ const HeroBanner = ({ heroBanner }) => {
             <button type="button">{heroBanner.buttonText}</button>
           </Link>
           <div className="desc">
-            <h5>Description</h5>
+            <h5>Buy your favourite Pokémons</h5>
+            <h5>Only on Pokémon Store</h5>
             <p>{heroBanner.desc}</p>
           </div>
         </div>
       </div>
+      <br />
+      <br />
+      <p>Pokémon Store only sells authentic pokémons at great prices.</p>
     </div>
   );
 };

@@ -4,7 +4,12 @@ import { AiFillInstagram, AiOutlineTwitter } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className="footer-container">
-      <p>2022 KamaKart All rights reserverd</p>
+      <p>
+        2021 Pokémon Store.This website is a demo.
+        <br />
+        Please do not type any sensitive information such as credit card or home
+        address.
+      </p>
       <p className="icons">
         <AiFillInstagram />
         <AiOutlineTwitter />
