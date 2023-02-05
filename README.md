@@ -1,25 +1,28 @@
 ## Preview
 This is Pokemon store SPA where we sell rescued pokemons that we found whilst on our adventures around the Poke world.
 
-![pokestore](https://user-images.githubusercontent.com/84003624/216795668-2164b9b2-f744-44dd-aecf-534fafa9be9b.gif)
+![pokgif](https://user-images.githubusercontent.com/84003624/216796488-d902d2ef-38ef-4e8c-b0de-606024ee4bdc.gif)
 
-Frontend Technology uses [React](https://reactjs.org/docs/getting-started.html).
-<br/>
+
+### Frontend uses [React](https://reactjs.org/docs/getting-started.html).
+
 ![poke_react](https://user-images.githubusercontent.com/84003624/216795883-f54c1a01-1c1f-47b0-8345-810f179daec6.png)
 <br/>
+<br/>
+<br/>
 ![poke_banner](https://user-images.githubusercontent.com/84003624/216795898-176107e0-5078-43c8-826e-6d58be48ff00.png)
+<br/>
+<br/>
+<br/>
 
+### Backend uses [Sanity](https://www.sanity.io/docs/overview-introduction).
 <br/>
-Backend uses [Sanity](https://www.sanity.io/docs/overview-introduction).
-<br/>
-<br/>
-Payment uses [Stripe](https://stripe.com/docs).
-<br/>
-<br/>
+
+
+### Payment uses [Stripe](https://stripe.com/docs).
 This requires [node.js](https://nodejs.org/en/docs/guides/) installed, please download and install the latest version from their official website.
 <br/>
 <br/>
-
 
 ## Getting Started
 
@@ -52,7 +55,7 @@ On Terminal Window #2 , on the project root folder
 npm install
 ```
 
-Now start the dev server
+_Now start the dev server_
 
 ```bash
 npm run dev
