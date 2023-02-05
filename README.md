@@ -1,41 +1,70 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Preview
+This is Pokemon store SPA where we sell rescued pokemons that we found whilst on our adventures around the Poke world.
+
+![pokestore](https://user-images.githubusercontent.com/84003624/216795668-2164b9b2-f744-44dd-aecf-534fafa9be9b.gif)
+
+Frontend Technology uses [React](https://reactjs.org/docs/getting-started.html).
+<br/>
+![poke_react](https://user-images.githubusercontent.com/84003624/216795883-f54c1a01-1c1f-47b0-8345-810f179daec6.png)
+<br/>
+![poke_banner](https://user-images.githubusercontent.com/84003624/216795898-176107e0-5078-43c8-826e-6d58be48ff00.png)
+
+<br/>
+Backend uses [Sanity](https://www.sanity.io/docs/overview-introduction).
+<br/>
+<br/>
+Payment uses [Stripe](https://stripe.com/docs).
+<br/>
+<br/>
+This requires [node.js](https://nodejs.org/en/docs/guides/) installed, please download and install the latest version from their official website.
+<br/>
+<br/>
+
 
 ## Getting Started
 
-First, run the development server:
+```bash
+git clone https://github.com/irfanirshad/sanity-SPA/
+```
+
+## Local Setup
+
+Open two terminal windows and keep it running.
+
+### Open two terminal windows:
+
+On Terminal Window #1 , Navigate to the sanity folder to start sanity server.
+If you need help setting up your sanity config files head over to [their website](https://www.sanity.io/docs/getting-started-with-sanity-cli) for help.
+
+```bash
+cd sanity_ecommerce
+sanity login
+sanity start
+```
+
+Open [http://localhost:3333](http://localhost:3333) to view & manage your sanity project.
+
+![pokemonstore_sanity](https://user-images.githubusercontent.com/84003624/216795119-21299ba1-da9d-4c8a-952f-a719451059bf.png)
+
+On Terminal Window #2 , on the project root folder
+
+```bash
+npm install
+```
+
+Now start the dev server
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
+## Disclaimer
+This is an Open Source application and we take no responsibility for any issues, bugs and conflicts encountered while running this application in environments not controlled and managed by us. Please read license for more information.
 
 
-================================================================
+## Reach out to developers for [feedback, queries and suggestions](https://github.com/irfanirshad/sanity-SPA/issues).
 
-START :: 
